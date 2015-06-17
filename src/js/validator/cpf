@@ -16,7 +16,7 @@
   FormValidation.Validator.cpf = {
     /**
      * Return true if the input value is a valid CPF Brazil number
-     * adpated from , work of https://github.com/gorork
+     * based from work of https://github.com/gorork
      */
     validade: function(validator, $field, options) {
         var value = validator.getFieldValue($field, "CPF");
@@ -24,7 +24,7 @@
            return true;
         }
         // Left only numbers from value, perhaps with HTML5 pattern this will be not needed. 
-	      value = value.match(/(\d+)/g);
+	      value = value.replace(/\D/g,'');
 	      // Check if has 11 digits 
 	      if (value.length !== 11) {
 	      		return false;
