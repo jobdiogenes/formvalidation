@@ -1,5 +1,5 @@
 /*
- * CPF number (Cadastrado de Pessoas Físicas) is the Brazilian tax registration number for people.
+ * CPF number (Cadastrado de Pessoas Físicas) is the Brazilian tax registration number for citizens.
  * CPF numbers have 11 digits in total: 9 numbers followed by 2 check numbers that are being used for validation.
  * @link http://formvalidation.io/validators/cpfBR
  * @author https://github.com/jobdiogenes
